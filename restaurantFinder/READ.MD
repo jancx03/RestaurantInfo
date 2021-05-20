@@ -1,0 +1,1 @@
+Fullstack development using mysql, express, vue and deployed with aws

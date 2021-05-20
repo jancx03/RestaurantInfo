@@ -1,0 +1,27 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:vue/essential",
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "vue"
+    ],
+    "rules": {
+        "vue/no-multiple-template-root": 0,
+        "import/no-unresolved": 0,
+        "import/extensions": 0,
+        "quotes": ["error", "single"],
+        "no-param-reassign": 0,
+        "no-return-assign": 0,
+        "no-shadow": 0,
+        "no-plusplus": 0
+    }
+}
